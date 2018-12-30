@@ -8,3 +8,7 @@
 - connect to the database from the remote: `sudo mysql -u wpuser -h [ip or server host] -p[password] wpdatabase;`
 
 see: https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
+
+### Docker
+- build image: `sudo docker build -t <your username>/node-web-app .`
+- run the image: `docker run -p 49160:8080 -d <your username>/node-web-app`
